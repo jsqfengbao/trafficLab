@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.trafficLab.modules.jingjia.dao.JjGetInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.trafficLab.modules.jingjia.entity.JjGetInfoEntity" id="jjGetInfoMap">
+        <result property="id" column="id"/>
+        <result property="sysUserId" column="sys_user_id"/>
+        <result property="productId" column="product_id"/>
+        <result property="wechat" column="wechat"/>
+        <result property="viewPercent" column="view_percent"/>
+        <result property="operateType" column="operate_type"/>
+        <result property="keyword" column="keyword"/>
+        <result property="visitUrl" column="visit_url"/>
+        <result property="visitIp" column="visit_ip"/>
+        <result property="country" column="country"/>
+        <result property="area" column="area"/>
+        <result property="region" column="region"/>
+        <result property="city" column="city"/>
+        <result property="county" column="county"/>
+        <result property="isp" column="isp"/>
+        <result property="countryId" column="country_id"/>
+        <result property="areaId" column="area_id"/>
+        <result property="regionId" column="region_id"/>
+        <result property="cityId" column="city_id"/>
+        <result property="countyId" column="county_id"/>
+        <result property="ispId" column="isp_id"/>
+        <result property="systemName" column="system_name"/>
+        <result property="appName" column="app_name"/>
+        <result property="appVersion" column="app_version"/>
+        <result property="cookieEnabled" column="cookie_enabled"/>
+        <result property="cpuClass" column="cpu_class"/>
+        <result property="mimeType" column="mime_type"/>
+        <result property="platform" column="platform"/>
+        <result property="plugins" column="plugins"/>
+        <result property="userLanguage" column="user_language"/>
+        <result property="userAgent" column="user_agent"/>
+        <result property="systemLanguage" column="system_language"/>
+        <result property="browserType" column="browser_type"/>
+        <result property="appCodeName" column="app_code_name"/>
+        <result property="appMinorVersion" column="app_minor_version"/>
+        <result property="language" column="language"/>
+        <result property="onLine" column="on_line"/>
+        <result property="oscpu" column="oscpu"/>
+        <result property="product" column="product"/>
+        <result property="productSub" column="product_sub"/>
+        <result property="securityPolicy" column="security_policy"/>
+        <result property="userProfile" column="user_profile"/>
+        <result property="vender" column="vender"/>
+        <result property="vendorSub" column="vendor_sub"/>
+        <result property="visitAddress" column="visit_address"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="enabled" column="enabled"/>
+    </resultMap>
+
+
+</mapper>
