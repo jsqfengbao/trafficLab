@@ -6,15 +6,15 @@
       "sourceType": "com.trafficLab.datasource.properties.DynamicDataSourceProperties"
     },
     {
-      "name": "renren.jwt",
-      "type": "com.trafficLab.modules.app.utils.JwtUtils",
-      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils"
-    },
-    {
       "name": "spring.datasource.druid",
       "type": "com.trafficLab.datasource.properties.DataSourceProperties",
       "sourceType": "com.trafficLab.datasource.config.DynamicDataSourceConfig",
       "sourceMethod": "dataSourceProperties()"
+    },
+    {
+      "name": "trafficlab.jwt",
+      "type": "com.trafficLab.modules.app.utils.JwtUtils",
+      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils"
     }
   ],
   "properties": [
@@ -22,22 +22,6 @@
       "name": "dynamic.datasource",
       "type": "java.util.Map<java.lang.String,com.trafficLab.datasource.properties.DataSourceProperties>",
       "sourceType": "com.trafficLab.datasource.properties.DynamicDataSourceProperties"
-    },
-    {
-      "name": "renren.jwt.expire",
-      "type": "java.lang.Long",
-      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils",
-      "defaultValue": 0
-    },
-    {
-      "name": "renren.jwt.header",
-      "type": "java.lang.String",
-      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils"
-    },
-    {
-      "name": "renren.jwt.secret",
-      "type": "java.lang.String",
-      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils"
     },
     {
       "name": "spring.datasource.druid.driver-class-name",
@@ -155,6 +139,22 @@
       "type": "java.lang.Integer",
       "sourceType": "com.trafficLab.datasource.properties.DataSourceProperties",
       "defaultValue": -1
+    },
+    {
+      "name": "trafficlab.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "trafficlab.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils"
+    },
+    {
+      "name": "trafficlab.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.trafficLab.modules.app.utils.JwtUtils"
     }
   ],
   "hints": []

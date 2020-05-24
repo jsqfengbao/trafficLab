@@ -1,10 +1,10 @@
 swagger: '2.0'
 info:
-  description: renren-fast是一个轻量级的Java快速开发平台，能快速开发项目并交付【接私活利器】
+  description: trafficLab是一个轻量级的Java开发平台，在此基础上增加了竞价大数据模块
   version: 1.0.0
-  title: 人人快速开发平台
+  title: trafficLab竞价大数据监控平台
 
-basePath: /renren-fast
+basePath: /trafficLab-server
 
 schemes:
   - http

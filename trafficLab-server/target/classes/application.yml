@@ -66,7 +66,7 @@ mybatis-plus:
     jdbc-type-for-null: 'null'
 
 
-trafficLab:
+trafficlab:
   redis:
     open: false
   shiro:
