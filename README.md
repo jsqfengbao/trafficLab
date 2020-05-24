@@ -1,8 +1,11 @@
 **项目说明** 
 - trafficLab是一个轻量级的，前后端分离的Java的竞价大数据监控平台
 - 支持MySQL、Oracle、SQL Server、PostgreSQL等主流数据库
-- 前端地址：https://xxx.com/trafficLab-vue
 
+**演示地址**
+- 前端地址：http://www.mobilesec110.com/#/login
+- 试用帐号密码: 张明/zm123
+不包括管理部分
 
 <br>
  
