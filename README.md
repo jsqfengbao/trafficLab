@@ -99,7 +99,7 @@ trafficLab
 
 
 **效果图：**
-![demo-screenshot_02](https://github.com/jsqfengbao/trafficLab/raw/master/pic/1.jpg)
+![demo-screenshot_02](https://s1.ax1x.com/2020/05/23/Yx3DL4.jpg)
 
 
 ![demo-screenshot_01](https://s1.ax1x.com/2020/05/23/Yx3UJ0.jpg)
